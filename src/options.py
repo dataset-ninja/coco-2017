@@ -2,6 +2,8 @@
 # ! Set up values if you want to change default values of visualizations
 ###############################################################################
 
+SAMPLE_RATE = 0.4  # make less if dataset is too big
+
 # * Preview class to visualize in SUMMARY.md overview section
 # * Literal["ClassesPreview", "HorizontalGrid", "SideAnnotationsGrid", "Poster"]
 # * If None, then preview_class will be set automatically to "ClassesPreview"
@@ -64,14 +66,16 @@ HEATMAP_ROWS: int = None
 HEATMAP_COLS: int = None
 HEATMAP_GRID_SPACING: int = None
 HEATMAP_OUTER_GRID_SPACING: int = None
-HEATMAP_OUTPUT_WIDTH: int = None # 1 class in dataset? -> 1600px for portrait images, 2200px for landscape
+HEATMAP_OUTPUT_WIDTH: int = (
+    None  # 1 class in dataset? -> 1600px for portrait images, 2200px for landscape
+)
 ###############################################################
-
 
 
 ##################################
 ###### ? Do not edit bellow #####
 ##################################
+
 
 def get_visualization_options():
     vis_settings = {
@@ -93,7 +97,7 @@ def get_visualization_options():
             "rows": SIDE_ANNOTATIONS_GRID_ROWS,
             "cols": SIDE_ANNOTATIONS_GRID_COLS,
             "is_detection_task": SIDE_ANNOTATIONS_GRID_IS_DETECTION_TASK,
-        }
+        },
     }
 
     checked_vis_settings = {}
@@ -128,6 +132,7 @@ def get_stats_options():
         "Previews": {
             "is_detection_task": PREVIEWS_IS_DETECTION_TASK,
         },
+        "Other": {"sample_rate": SAMPLE_RATE},
     }
 
     checked_stats_settings = {}
