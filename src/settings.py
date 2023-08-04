@@ -85,6 +85,8 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://cocodataset.org/#ho
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
 TAGS: Optional[List[str]] = None
 
+SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = ["train"]
+
 ##################################
 ###### ? Checks. Do not edit #####
 ##################################
@@ -128,5 +130,7 @@ def get_settings():
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
     settings["tags"] = TAGS
+
+    settings["explore_datasets"] = SECTION_EXPLORE_CUSTOM_DATASETS
 
     return settings
