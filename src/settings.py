@@ -40,7 +40,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://cocodataset.org/#home"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 1126672
+PREVIEW_IMAGE_ID: int = 1183861
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/coco-2017"
@@ -85,7 +85,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://cocodataset.org/#ho
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
 TAGS: Optional[List[str]] = None
 
-SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = ["train"]
+SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = ["val"]
 
 ##################################
 ###### ? Checks. Do not edit #####
