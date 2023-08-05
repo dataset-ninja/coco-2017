@@ -1,4 +1,4 @@
-**COCO 2017** dataset is a part of a large **Microsoft COCO** dataset. Check dataset's [homepage](https://cocodataset.org/#home) for more info.
+**COCO 2017** dataset is a part of a large **Microsoft COCO** dataset. Check dataset's homepage for more info.
 
 Authors present Microsoft COCO with the goal of advancing the state-of-the-art in object recognition by placing the question of object recognition in the context of the broader question of scene understanding. This is achieved by gathering images of complex everyday scenes containing common objects in their natural context. Microsoft COCO dataset contains photos of 91 objects types that would be easily recognizable by a 4 year old. With a total of *2.5 million labeled instances in 328k images*. Note, that in COCO 2017 only *1.8 million labeled intances in 164k images.*
 
