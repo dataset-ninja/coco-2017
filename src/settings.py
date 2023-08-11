@@ -86,7 +86,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://cocodataset.org/#ho
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
 TAGS: Optional[List[str]] = None
 
-SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = ["val"]
+SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = ["train"]
 
 ##################################
 ###### ? Checks. Do not edit #####
