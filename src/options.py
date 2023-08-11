@@ -2,7 +2,7 @@
 # ! Set up values if you want to change default values of visualizations
 ###############################################################################
 
-SAMPLE_RATE = 0.05  # make less if dataset is too big
+SAMPLE_RATE = 0.1  # make less if dataset is too big
 
 # * Preview class to visualize in SUMMARY.md overview section
 # * Literal["ClassesPreview", "HorizontalGrid", "SideAnnotationsGrid", "Poster"]
