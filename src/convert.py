@@ -15,7 +15,7 @@ def convert_and_upload_supervisely_project(
 ) -> sly.ProjectInfo:
     project_path = os.path.join(sly.app.get_data_dir(), "supervisely project")
     project_path = coco_to_supervisely(
-        original_ds_names=["train2017", "val2017", "test2017"], dst_path=project_path
+        original_ds_names=["test2017"], dst_path=project_path
     )
     if project_path is not None:
         project_id, _ = sly.upload_project(
