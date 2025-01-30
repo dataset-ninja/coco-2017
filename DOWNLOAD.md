@@ -1,6 +1,6 @@
 Dataset **COCO 2017** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/k358xd8xv51q76ksmpe0j/coco-2017-DatasetNinja.tar?rlkey=3f7c294atgo3tqeud5h5sznz7&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzIxNTFfQ09DTyAyMDE3L2NvY28tMjAxNy1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJwc05HeXpTY2xmZ1lIL1QzN0ZKUUVwc3VyVVFCaXN5WmpYTnZjOEtGK1RJPSJ9)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
